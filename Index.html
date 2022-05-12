@@ -21,7 +21,7 @@
 </head>
 <body>
     <nav>
-        <nav class="navbar navbar-expand-lg navbar-dark p-0">
+        <nav class="navbar navbar-expand-lg navbar-dark p-0 fixed-top">
           <div class="container">
             <a class="navbar-brand" href="#"><img src="assets/img/viajes.svg" alt="logo1"> Viajes Chile</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -73,64 +73,72 @@
         </div>
       </header>
 
-      <section class="quienes_somos container mb-5 text-center">
-          <h1>
+      <section class="quienes_somos container my-5 text-center">
+          <h2>
               ¿QUIENES SOMOS?
-          </h1>
-          <hr>
+          </h2>
+          <hr class="my-4">
           <div class="row">
         <div class="col-12 col-md-4">
-            <i class="fas fa-plane fa-2x"></i>
+            <i class="container-fluid fas fa-plane text-center fa-2x"></i>
             <p class="my-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam omnis culpa cupiditate quae quibusdam sint molestiae tenetur debitis esse veniam explicabo voluptatum aliquam nesciunt, in corporis molestias! Blanditiis, quam. Esse.</p>   
           </div>
 
           <div class="col-12 col-md-4">
-              <p class="my-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam omnis culpa cupiditate quae quibusdam sint molestiae tenetur debitis esse veniam explicabo voluptatum aliquam nesciunt, in corporis molestias! Blanditiis, quam. Esse.</p>   
-              <i class="fas fa-mountain fa-2x"></i>
+              <p class="my-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam omnis culpa cupiditate quae quibusdam sint molestiae tenetur debitis esse veniam explicabo voluptatum aliquam nesciunt, in corporis molestias! Blanditiis, quam. Esse.</p> 
+              <i class="container-fluid fas fa-mountain text-center fa-2x"><i class="fas fa-mountain text-center"></i></i>
           </div>
 
           <div class="col-12 col-md-4">
-            <i class="fas fa-route fa-2x"></i>
+            <i class="container-fluid fas fa-route text-center fa-2x"></i>
             <p class="my-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam omnis culpa cupiditate quae quibusdam sint molestiae tenetur debitis esse veniam explicabo voluptatum aliquam nesciunt, in corporis molestias! Blanditiis, quam. Esse.</p>   
           </div>
-
+          
         </div>        
     </section>
-
+    
     <section class="destacados container mb-5 text-center">
         
         <div class="row">
-            <div class="col-12 col-lg-3 col-md-6 px-2 mb-3">
+            <h2 class="mt-1">
+              DESTACADOS
+          </h2>
+          <hr class="my-4">
+            <div class="col-12 col-lg-3 col-md-6 mb-3">
             <div class="card" style="width: 18rem;">
                 <img src="assets/img/card1.jpg" class="card-img-top" alt="card1" style="height: 11rem;">
                 <div class="card-body">
+                    <h5>Lorem ipsum dolor, sit.</h5>
                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 </div>
               </div>
             </div>
 
-              <div class="col-12 col-lg-3 col-md-6 px-2 mb-3">
+              <div class="col-12 col-lg-3 col-md-6 mb-3">
               <div class="card" style="width: 18rem;">
                 <img src="assets/img/card2.jpg" class="card-img-top" alt="card2" style="height: 11rem;">
                 <div class="card-body">
+                    <h5>Lorem ipsum dolor, sit.</h5>
                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 </div>
               </div>
             </div>
 
-            <div class="col-12 col-lg-3 col-md-6 px-2 mb-3">
+            <div class="col-12 col-lg-3 col-md-6 mb-3">
               <div class="card" style="width: 18rem;">
                 <img src="assets/img/card3.jpg" class="card-img-top" alt="card3"  style="height: 11rem;">
                 <div class="card-body">
+                    <h5>Lorem ipsum dolor, sit.</h5>
                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 </div>
               </div>
             </div>
 
-            <div class="col-12 col-lg-3 col-md-6 px-2 mb-3">
+            <div class="col-12 col-lg-3 col-md-6 mb-3">
               <div class="card" style="width: 18rem;">
                 <img src="assets/img/card4.jpg" class="card-img-top" alt="card4" style="height: 11rem;">
                 <div class="card-body">
+                    <h5>Lorem ipsum dolor, sit.</h5>
                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 </div>
               </div>
@@ -139,20 +147,19 @@
     </section>
 
     <section id="contacto" class="container my-5">
-        <h2 class="display-4 fw-bold text-center my-4">Contáctame</h2>
-        <form>
-            <div class="form-group mb-4">
-                <label class="mb-2">Nombre</label>
-                <input class="form-control" placeholder="">
-            </div>
-            <div class="form-group mb-4">
-                <label class="mb-2">Asunto</label>
-                <input class="form-control" placeholder="">
-            </div>
-            <div class="form-group mb-4">
-                <label class="mb-2">Mensaje</label>
-                <input class="form-control" placeholder="">
-            </div>
+        <h2 class="display-4 text-center my-4">CONTACTO</h2>
+        <hr class="my-4">
+        <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Nombre</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="">
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Asunto</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="">
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="10"></textarea>
             <div class="my-3 text-start">
                 <button class="btn btn-info text-light">Enviar</button>
             </div>
@@ -160,11 +167,11 @@
     </section>
     
     <footer>
-        <div class="row container-fluid">
-        <div class="col-6">
+        <div class="final row container-fluid">
+        <div class="col-6 mt-4 ">
             <h3>Viajes Chile</h3>
             </div>
-            <div class="iconos-blancos col-6 text-end pb-4">
+            <div class="iconos-blancos col-6 text-end pb-4 mt-4">
                 <i class="fab fa-github-square fa-2x"></i>
                 <i class="fab fa-linkedin fa-2x"></i>
                 <i class="fab fa-twitter-square fa-2x"></i>

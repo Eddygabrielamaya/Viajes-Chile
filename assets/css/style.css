@@ -1,0 +1,82 @@
+*{
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+    }
+
+    nav{
+        background-color:#000000;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 400;
+    }
+
+    body{
+        background-color:#000;
+        color: white;
+    }
+
+    .quienes_somos h2{
+     font-size: 1.3rem;
+     font-family: 'Raleway', sans-serif;
+     font-weight: 500;
+    }
+
+    .destacados h2{
+        font-size: 1.3rem;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 500;
+       }
+
+    #contacto h2{
+        font-size: 1.3rem;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 500;
+       }
+
+       #contacto label{
+        font-size: 1rem;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 400;
+       }
+       
+       #contacto button{
+        font-size: 1rem;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 400;
+       }
+
+    hr {
+        border: 1px solid #0dcaf0;
+        margin: 0;
+    }
+
+    section div i{
+        background-color: #0dcaf0;
+        margin: 0 2%;
+        vertical-align: middle;
+        text-align: center;
+    }
+
+    .card {
+        background-color: #0dcaf0;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 400;
+    }
+    .card h5{
+        font-family: 'Raleway', sans-serif;
+        font-weight: 500;
+        text-align: start;
+    }
+    section div p{
+        text-align: start;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 400;
+    }
+
+    footer {
+        background-color: #0dcaf0;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 400;
+    }
+.final{
+    padding: 0 15% 0 15%;
+}
