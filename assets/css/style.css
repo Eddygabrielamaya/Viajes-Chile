@@ -15,21 +15,21 @@
     }
 
 /*Navbar*/
-.nav-black {
+    .nav-black {
     background-color: black;
     color: white;
-  }
+    }
   
-  .dark-celu .container {
+    .dark-celu .container {
     background-color: transparent;
-  }
+    } 
   
   @media only screen and (max-width: 991px) {
     
     .dark-celu {
       background-color: black;
     }
-  }
+    }
 
 
     .quienes_somos h2{
@@ -90,17 +90,17 @@
         font-weight: 400;
     }
 
-.modal {
+    .modal {
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
     color: #000;
-}
+    }
 
     footer {
         background-color: #0dcaf0;
         font-family: 'Raleway', sans-serif;
         font-weight: 400;
     }
-.final{
+    .final{
     padding: 0 15% 0 15%;
-}
+    }
