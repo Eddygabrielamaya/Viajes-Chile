@@ -20,8 +20,7 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <nav>
-        <nav class="navbar navbar-expand-lg navbar-dark p-0 fixed-top">
+        <nav class="navbar navbar-expand-lg px-2 fixed-top navbar-dark dark-celu p-0 ">
           <div class="container">
             <a class="navbar-brand" href="#"><img src="assets/img/viajes.svg" alt="logo1"> Viajes Chile</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -46,7 +45,7 @@
             </div>
           </div>
         </nav>
-      </nav>
+    
 
       <header>
         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
@@ -80,17 +79,17 @@
           <hr class="my-4">
           <div class="row">
         <div class="col-12 col-md-4">
-            <i class="container-fluid fas fa-plane text-center fa-2x"></i>
+            <i class="iconos container-fluid fas fa-plane text-center fa-2x"></i>
             <p class="my-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam omnis culpa cupiditate quae quibusdam sint molestiae tenetur debitis esse veniam explicabo voluptatum aliquam nesciunt, in corporis molestias! Blanditiis, quam. Esse.</p>   
           </div>
 
           <div class="col-12 col-md-4">
               <p class="my-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam omnis culpa cupiditate quae quibusdam sint molestiae tenetur debitis esse veniam explicabo voluptatum aliquam nesciunt, in corporis molestias! Blanditiis, quam. Esse.</p> 
-              <i class="container-fluid fas fa-mountain text-center fa-2x"><i class="fas fa-mountain text-center"></i></i>
+              <i class="iconos container-fluid fas fa-mountain text-center fa-2x"><i class="fas fa-mountain text-center"></i></i>
           </div>
 
           <div class="col-12 col-md-4">
-            <i class="container-fluid fas fa-route text-center fa-2x"></i>
+            <i class="iconos container-fluid fas fa-route text-center fa-2x"></i>
             <p class="my-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam omnis culpa cupiditate quae quibusdam sint molestiae tenetur debitis esse veniam explicabo voluptatum aliquam nesciunt, in corporis molestias! Blanditiis, quam. Esse.</p>   
           </div>
           
@@ -105,8 +104,8 @@
           </h2>
           <hr class="my-4">
             <div class="col-12 col-lg-3 col-md-6 mb-3">
-            <div class="card" style="width: 18rem;">
-                <img src="assets/img/card1.jpg" class="card-img-top" alt="card1" style="height: 11rem;">
+            <div class="card">
+                <img src="assets/img/card1.jpg" class="card-img-top img-fluid" alt="card1" style="height: 11rem;">
                 <div class="card-body">
                     <h5>Lorem ipsum dolor, sit.</h5>
                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -115,8 +114,8 @@
             </div>
 
               <div class="col-12 col-lg-3 col-md-6 mb-3">
-              <div class="card" style="width: 18rem;">
-                <img src="assets/img/card2.jpg" class="card-img-top" alt="card2" style="height: 11rem;">
+              <div class="card">
+                <img src="assets/img/card2.jpg" class="card-img-top img-fluid" alt="card2" style="height: 11rem;">
                 <div class="card-body">
                     <h5>Lorem ipsum dolor, sit.</h5>
                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -125,8 +124,8 @@
             </div>
 
             <div class="col-12 col-lg-3 col-md-6 mb-3">
-              <div class="card" style="width: 18rem;">
-                <img src="assets/img/card3.jpg" class="card-img-top" alt="card3"  style="height: 11rem;">
+              <div class="card">
+                <img src="assets/img/card3.jpg" class="card-img-top img-fluid" alt="card3"  style="height: 11rem;">
                 <div class="card-body">
                     <h5>Lorem ipsum dolor, sit.</h5>
                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -135,8 +134,8 @@
             </div>
 
             <div class="col-12 col-lg-3 col-md-6 mb-3">
-              <div class="card" style="width: 18rem;">
-                <img src="assets/img/card4.jpg" class="card-img-top" alt="card4" style="height: 11rem;">
+              <div class="card">
+                <img src="assets/img/card4.jpg" class="card-img-top img-fluid" alt="card4" style="height: 11rem;">
                 <div class="card-body">
                     <h5>Lorem ipsum dolor, sit.</h5>
                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -161,9 +160,31 @@
             <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
             <textarea class="form-control" id="exampleFormControlTextarea1" rows="10"></textarea>
             <div class="my-3 text-start">
-                <button class="btn btn-info text-light">Enviar</button>
+
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-info text-light" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    Enviar
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Preparado, listo, ya!!!</h5>
+        </div>
+        <div class="modal-body">
+        <p> Preparado para el mejor viaje de tu vida</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Me arrepentí</button>
+          <button type="button" class="btn btn-primary">Me voy</button>
+        </div>
+      </div>
+    </div>
+  </div>
+                
             </div>
-        </form>
     </section>
     
     <footer>
@@ -179,7 +200,9 @@
             </div>
         </div>
     </footer>
-
-    <script src="assets/js/script.js"></script>
+    <!--JavaScript JQUERY-->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+        <script src="assets/js/script.js"></script>
 </body>
 </html>
